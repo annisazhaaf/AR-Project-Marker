@@ -1,0 +1,11 @@
+Model Information:
+* title:	Funtime Freddy Five Night's At Freddy's:Hw
+* source:	https://sketchfab.com/3d-models/funtime-freddy-five-nights-at-freddyshw-15b5caf2761447fc866fe365f39c0a61
+* author:	MrUnknown (https://sketchfab.com/MrUnknownP3dAnimations)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Funtime Freddy Five Night's At Freddy's:Hw" (https://sketchfab.com/3d-models/funtime-freddy-five-nights-at-freddyshw-15b5caf2761447fc866fe365f39c0a61) by MrUnknown (https://sketchfab.com/MrUnknownP3dAnimations) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

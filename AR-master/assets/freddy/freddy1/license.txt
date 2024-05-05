@@ -1,0 +1,11 @@
+Model Information:
+* title:	Foxy the Pirate
+* source:	https://sketchfab.com/3d-models/foxy-the-pirate-9e93623e61924b77ba8346ebdd3c26e3
+* author:	UrbanFoxGamer (https://sketchfab.com/UrbanFoxGamer)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Foxy the Pirate" (https://sketchfab.com/3d-models/foxy-the-pirate-9e93623e61924b77ba8346ebdd3c26e3) by UrbanFoxGamer (https://sketchfab.com/UrbanFoxGamer) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

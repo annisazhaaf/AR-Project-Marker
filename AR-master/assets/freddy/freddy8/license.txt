@@ -1,0 +1,11 @@
+Model Information:
+* title:	unwithered Freddy
+* source:	https://sketchfab.com/3d-models/unwithered-freddy-bb87e20e84ce47169f4c95c64570da6f
+* author:	withered Freddy (https://sketchfab.com/3445963501)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "unwithered Freddy" (https://sketchfab.com/3d-models/unwithered-freddy-bb87e20e84ce47169f4c95c64570da6f) by withered Freddy (https://sketchfab.com/3445963501) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
