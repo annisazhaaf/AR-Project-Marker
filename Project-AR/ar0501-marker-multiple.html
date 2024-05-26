@@ -1,0 +1,128 @@
+<!doctype HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <!-- Correcting zooming issue -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <!-- Library untuk VR membangun 3D -->
+    <script src="./js/aframe/aframe.min.js"></script>
+    <!-- Library untuk AR yang melakukan pengenalan marker dan menyematkan kamera-->
+    <script src="./js/arjs/aframe-ar.js"></script>
+    <title>WebAR: Multiple Marker</title>
+    <!-- include text geometry --> 
+    <script src="https://unpkg.com/aframe-text-geometry-component@0.5.1/dist/aframe-text-geometry-component.min.js"></script>
+</head>
+
+<body style="margin : 0px; overflow: hidden;">
+    <a-scene embedded vr-mode-ui="enabled: false" arjs="detectionMode: mono_and_matrix; matrixCodeType: 3x3; debugUIEnabled: false;">
+
+        <!-- create assets -->
+        <a-assets timeout="900000">
+            <a-asset-item id="freddy1" src="./assets/freddy/freddy1/scene.gltf"></a-asset-item>
+            <a-asset-item id="freddy2" src="./assets/freddy/freddy2/scene.gltf"></a-asset-item>
+            <a-asset-item id="freddy3" src="./assets/freddy/freddy3/scene.gltf"></a-asset-item>
+            <a-asset-item id="freddy4" src="./assets/freddy/freddy4/scene.gltf"></a-asset-item>
+            <a-asset-item id="freddy5" src="./assets/freddy/freddy5/scene.gltf"></a-asset-item>
+            <a-asset-item id="freddy6" src="./assets/freddy/freddy6/scene.gltf"></a-asset-item>
+            <a-asset-item id="freddy7" src="./assets/freddy/freddy7/scene.gltf"></a-asset-item>
+            <img id="freddyimg1" src="./images/photo/freddyimg1.jpg">
+            <img id="freddyimg2" src="./images/photo/freddyimg2.jpg">
+            <img id="freddyimg3" src="./images/photo/freddyimg3.jpg">
+        </a-assets>
+
+        <!-- handle unknown marker -->
+        <a-marker type="unknown">
+            <a-box depth="1" height="1" width="1" position="0 0.5 0" material="opacity: 0.5; side:double; color:purple;"></a-box>
+        </a-marker>
+
+        <!-- handle kanji marker -->
+        <a-marker preset="hiro">
+            <a-entity gltf-model="#freddy1" animation-mixer></a-entity>
+        </a-marker>
+
+        <!-- handle kanji marker -->
+        <a-marker preset="kanji">
+            <a-entity gltf-model="#freddy2"></a-entity>
+        </a-marker>
+
+        <!-- handle matrix marker -->
+        <a-marker type="barcode" value="0">
+            <a-box position="0 0.5 0" material="opacity: 0.5; side: double;color:red;">
+                <a-torus-knot radius="0.26" radius-tubular="0.05"></a-torus-knot>
+            </a-box>
+        </a-marker>
+
+        <!-- handle matrix marker -->
+        <a-marker type="barcode" value="11">
+            <a-entity gltf-model="#freddy3"></a-entity>
+        </a-marker>
+
+        <!-- handle matrix marker -->
+        <a-marker type="barcode" value="2">
+            <a-plane width="1" height="1" position="0 0 0" rotation="-90 0 0" color="green">
+                <a-gltf-model src="#freddy4" rotation="90 0 0" position="0 -0.2 0.2" scale="0.5 0.5 0.5"></a-gltf-model>
+            </a-plane>
+        </a-marker>
+
+        <!-- handle matrix marker -->
+        <a-marker type="barcode" value="3">
+            <a-plane width="1" height="1" position="0 0 0" rotation="-90 0 0" color="white">
+                <a-gltf-model src="#freddy5" rotation="0 0 0" position="0 0 0" scale="0 0 0.5"></a-gltf-model>
+            </a-plane>
+        </a-marker>
+
+        <!-- handle matrix marker -->
+        <a-marker type="barcode" value="4">
+            <a-plane width="1" height="1" position="0 0 0" rotation="-90 0 0" color="cyan">
+                <a-gltf-model src="#freddy6" rotation="90 0 0" position="0 -0.2 1" scale="0.5 0.5 0.5"></a-gltf-model>
+            </a-plane>
+        </a-marker>
+
+        <!-- handle matrix marker -->
+        <a-marker type="barcode" value="5">
+            <a-plane width="1" height="1" position="0 0 0" rotation="-90 0 0" color="white">
+                <a-gltf-model src="#freddy7" rotation="-90 0 0" position="0 0 0" scale="0 0 0.5"></a-gltf-model>
+            </a-plane>
+        </a-marker>
+
+        <!-- handle matrix marker -->
+        <a-marker type="barcode" value="6">
+            <a-image src="#freddyimg1" rotation="-90 0 0" width="2" height="1"></a-image>
+        </a-marker>
+
+        <!-- handle matrix marker -->
+        <a-marker type="barcode" value="21">
+            <a-plane width="1" height="1" position="0 0 0" rotation="-90 0 0" color="white" src="#freddyimg2">
+                <a-text value="Bunga" color="#111" position="0 -0.7 0" align="center"></a-text>
+                <a-sphere color="blue" position="-0.7 -0.7 0" radius="0.2"></a-sphere>
+                <a-sphere color="red" position="0.7 -0.7 0" radius="0.2"></a-sphere>
+            </a-plane>
+        </a-marker>
+
+        <!-- handle matrix marker -->
+        <a-marker type="barcode" value="8">
+            <a-plane width="1" height="1" position="0 0 0" rotation="-90 0 0" color="white" src="#freddyimg3">
+                <a-torus-knot radius="0.06" radius-tubular="0.05" position="0.7 -0.7 0">
+                </a-torus-knot>
+                <a-torus-knot radius="0.06" radius-tubular="0.05" position="-0.7 -0.7 0">
+                </a-torus-knot>
+            </a-plane>
+        </a-marker>
+
+        <!-- handle custom marker -->
+        <a-marker preset="custom" type="pattern" url="./marker/datamatrix-1234567890/marker-datamatrix-1234567890.patt">
+            <a-image src="#freddyimg2" rotation="-90 0 0" width="1" height="1" position="-1 0 -1"></a-image>
+        </a-marker>
+
+        <!-- handle custom marker -->
+        <a-marker preset="custom" type="pattern" url="./marker/unila/pattern-Unila-warna.patt">
+            <a-image src="#freddyimg1" rotation="-90 0 0" width="1" height="1" position="-1 0 -1"></a-image>
+        </a-marker>
+
+        <!-- add a simple camera -->
+        <a-entity camera></a-entity>
+    </a-scene>
+</body>
+
+</html>
