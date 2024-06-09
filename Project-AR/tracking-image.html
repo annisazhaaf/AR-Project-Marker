@@ -6,53 +6,193 @@
     <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-aframe.prod.js"></script>
   </head>
   <body>
-    <a-scene mindar-image="imageTargetSrc: ./assets/targets (1).mind; maxTrack: 11" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+    <a-scene 
+      mindar-image="imageTargetSrc: ./assets/FNAF/targetsFF.mind; maxTrack: 17" 
+      color-space="sRGB" 
+      renderer="colorManagement: true, physicallyCorrectLights" 
+      vr-mode-ui="enabled: false" 
+      device-orientation-permission-ui="enabled: false">
+      
       <a-assets>
-        <a-asset-item id="freddy1" src="./assets/freddy/freddy1/scene.gltf"></a-asset-item>
-        <a-asset-item id="freddy2" src="./assets/freddy/freddy2/scene.gltf"></a-asset-item>
-        <a-asset-item id="freddy3" src="./assets/freddy/freddy3/scene.gltf"></a-asset-item>
-        <a-asset-item id="freddy4" src="./assets/freddy/freddy4/scene.gltf"></a-asset-item>
-        <a-asset-item id="freddy5" src="./assets/freddy/freddy5/scene.gltf"></a-asset-item>
-        <a-asset-item id="freddy6" src="./assets/freddy/freddy6/scene.gltf"></a-asset-item>
-        <a-asset-item id="freddy7" src="./assets/freddy/freddy7/scene.gltf"></a-asset-item>
-        <a-asset-item id="freddy8" src="./assets/freddy/freddy8/scene.gltf"></a-asset-item>
-        <a-asset-item id="freddy9" src="./assets/freddy/freddy9/scene.gltf"></a-asset-item>
-        <a-asset-item id="freddy10" src="./assets/freddy/freddy10/scene.gltf"></a-asset-item>
+        <a-asset-item id="freddy1" src="./assets/FNAF/modelGLTF/FF_1/scene.gltf"></a-asset-item>
+        <a-asset-item id="freddy2" src="./assets/FNAF/modelGLTF/FF_2/scene.gltf"></a-asset-item>
+        <a-asset-item id="freddy3" src="./assets/FNAF/modelGLTF/FF_3/scene.gltf"></a-asset-item>
+        <a-asset-item id="freddy4" src="./assets/FNAF/modelGLTF/FF_4/scene.gltf"></a-asset-item>
+        <a-asset-item id="freddy5" src="./assets/FNAF/modelGLTF/FF_5/scene.gltf"></a-asset-item>
+        <a-asset-item id="freddy6" src="./assets/FNAF/modelGLTF/FF_6/scene.gltf"></a-asset-item>
+        <a-asset-item id="freddy7" src="./assets/FNAF/modelGLTF/FF_7/scene.gltf"></a-asset-item>
+        <a-asset-item id="freddy8" src="./assets/FNAF/modelGLTF/FF_8/scene.gltf"></a-asset-item>
+        <a-asset-item id="freddy9" src="./assets/FNAF/modelGLTF/FF_9/scene.gltf"></a-asset-item>
+        <a-asset-item id="freddy10" src="./assets/FNAF/modelGLTF/FF_10/scene.gltf"></a-asset-item>
+        <a-asset-item id="freddy11" src="./assets/FNAF/modelGLTF/FF_11/scene.gltf"></a-asset-item>
+        <a-asset-item id="freddy12" src="./assets/FNAF/modelGLTF/FF_12/scene.gltf"></a-asset-item>
+        <a-asset-item id="freddy13" src="./assets/FNAF/modelGLTF/FF_13/scene.gltf"></a-asset-item>
+        <a-asset-item id="freddy14" src="./assets/FNAF/modelGLTF/FF_14/scene.gltf"></a-asset-item>
+        <a-asset-item id="freddy15" src="./assets/FNAF/modelGLTF/FF_15/scene.gltf"></a-asset-item>
+        <a-asset-item id="freddy16" src="./assets/FNAF/modelGLTF/FF_16/scene.gltf"></a-asset-item>
       </a-assets>
 
       <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
 
       <a-entity mindar-image-target="targetIndex: 0">
-        <a-gltf-model rotation="0 0 0 " position="0 -0.25 0" scale="0.002 0.002 0.002" src="#freddy1" animation-mixer>
-        </a-entity>
-        <a-entity mindar-image-target="targetIndex: 1">
-        <a-gltf-model rotation="0 270 0 " position="0 -0.25 0" scale="0.02 0.02 0.02" src="#freddy2" animation-mixer>
-        </a-entity>
-        <a-entity mindar-image-target="targetIndex: 2">
-        <a-gltf-model rotation="0 -0 0 " position="0 0 0" scale="0.02 0.02 0.02" src="#freddy3" animation-mixer>
-        </a-entity>
-        <a-entity mindar-image-target="targetIndex: 3">
-        <a-gltf-model rotation="0 180 0 " position="0 -0.3 0" scale="0.002 0.002 0.002" src="#freddy4" animation-mixer>
-        </a-entity>
-        <a-entity mindar-image-target="targetIndex: 4">
-        <a-gltf-model rotation="-0.1 -0 -1 " position="0 -0.3 0.1" scale="0.05 0.05 0.05" src="#freddy5" animation-mixer>
-        </a-entity>
-        <a-entity mindar-image-target="targetIndex: 5">
-        <a-gltf-model rotation="0 270 0 " position="0 0 0" scale="0.02 0.02 0.02" src="#freddy6" animation-mixer>
-        </a-entity>
-        <a-entity mindar-image-target="targetIndex: 6">
-        <a-gltf-model rotation="0.1 -0 0 " position="0 -0.3 -0.3" scale="0.002 0.002 0.002" src="#freddy7" animation-mixer>
-        </a-entity>
-        <a-entity mindar-image-target="targetIndex: 7">
-        <a-gltf-model rotation="0 0 1 " position="0 0 0" scale="0.02 0.02 0.02" src="#freddy8" animation-mixer>
-        </a-entity>
-        <a-entity mindar-image-target="targetIndex: 8">
-        <a-gltf-model rotation="0 -5 10 " position="0 -5 0" scale="0.20 0.02 0.02" src="#freddy9" animation-mixer>
-        </a-entity>
-        <a-entity mindar-image-target="targetIndex: 9">
-        <a-gltf-model rotation="0 0 0 " position="0 -0.25 0" scale="0.02 0.02 0.02" src="#freddy10" animation-mixer>
+        <a-plane
+          width="1" height="1" position="0 0 0" rotation="0 0 0"
+          src="./assets/FNAF/alasFF/1.png"
+        ></a-plane>
+        <a-gltf-model 
+          rotation="90 0 0 " position="0 0 0" scale="0.3 0.3 0.3" 
+          src="#freddy1" animation-mixer>
         </a-entity>
 
+      <a-entity mindar-image-target="targetIndex: 1">
+        <a-plane
+          width="1" height="1" position="0 0 0" rotation="0 0 0"
+          src="./assets/FNAF/alasFF/2.png"
+        ></a-plane>
+        <a-gltf-model 
+          rotation="90 0 0 " position="0 0 0" scale="0.3 0.3 0.3" 
+          src="#freddy2" animation-mixer>
+        </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 2">
+        <a-plane
+          width="1" height="1" position="0 0 0" rotation="0 0 0"
+          src="./assets/FNAF/alasFF/3.png"
+        ></a-plane>
+        <a-gltf-model 
+          rotation="90 0 0 " position="0 0 0" scale="0.3 0.3 0.3" 
+          src="#freddy3" animation-mixer>
+        </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 3">
+        <a-plane
+          width="1" height="1" position="0 0 0" rotation="0 0 0"
+          src="./assets/FNAF/alasFF/4.png"
+        ></a-plane>
+        <a-gltf-model 
+          rotation="90 0 0 " position="0 0 0" scale="0.3 0.3 0.3" 
+          src="#freddy4" animation-mixer>
+        </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 4">
+        <a-plane
+          width="1" height="1" position="0 0 0" rotation="0 0 0"
+          src="./assets/FNAF/alasFF/5.png"
+        ></a-plane>
+        <a-gltf-model 
+          rotation="90 0 0 " position="0 0 0" scale="0.3 0.3 0.3" 
+          src="#freddy5" animation-mixer>
+        </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 5">
+        <a-plane
+          width="1" height="1" position="0 0 0" rotation="0 0 0"
+          src="./assets/FNAF/alasFF/6.png"
+        ></a-plane>
+        <a-gltf-model 
+          rotation="90 0 0 " position="0 0 0" scale="0.3 0.3 0.3" 
+          src="#freddy6" animation-mixer>
+        </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 6">
+        <a-plane
+          width="1" height="1" position="0 0 0" rotation="0 0 0"
+          src="./assets/FNAF/alasFF/7.png"
+        ></a-plane>
+        <a-gltf-model 
+          rotation="90 0 0 " position="0 0 0" scale="0.3 0.3 0.3" 
+          src="#freddy7" animation-mixer>
+        </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 7">
+        <a-plane
+          width="1" height="1" position="0 0 0" rotation="0 0 0"
+          src="./assets/FNAF/alasFF/8.png"
+        ></a-plane>
+        <a-gltf-model 
+          rotation="90 0 0" position="0 0 0" scale="0.3 0.3 0.3" 
+          src="#freddy8" animation-mixer>
+        </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 8">
+        <a-plane
+          width="1" height="1" position="0 0 0" rotation="0 0 0"
+          src="./assets/FNAF/alasFF/9.png"
+        ></a-plane>
+        <a-gltf-model 
+          rotation="90 0 0" position="0 0 0" scale="0.3 0.3 0.3" 
+          src="#freddy9" animation-mixer>
+        </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 9">
+        <a-plane
+          width="1" height="1" position="0 0 0" rotation="0 0 0"
+          src="./assets/FNAF/alasFF/10.png"
+        ></a-plane>
+        <a-gltf-model 
+          rotation="90 0 0" position="0 0 0" scale="0.3 0.3 0.3" 
+          src="#freddy10" animation-mixer>
+        </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 10">
+        <a-plane
+          width="1" height="1" position="0 0 0" rotation="0 0 0"
+          src="./assets/FNAF/alasFF/11.png"
+        ></a-plane>
+        <a-gltf-model 
+          rotation="90 0 0" position="0 0 0" scale="0.3 0.3 0.3" 
+          src="#freddy11" animation-mixer>
+        </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 11">
+        <a-plane
+          width="1" height="1" position="0 0 0" rotation="0 0 0"
+          src="./assets/FNAF/alasFF/12.png"
+        ></a-plane>
+        <a-gltf-model 
+          rotation="90 0 0" position="0 0 0" scale="0.3 0.3 0.3" 
+          src="#freddy12" animation-mixer>
+        </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 12">
+        <a-plane
+          width="1" height="1" position="0 0 0" rotation="0 0 0"
+          src="./assets/FNAF/alasFF/13.png"
+        ></a-plane>
+        <a-gltf-model 
+          rotation="90 0 0" position="0 0 0" scale="0.3 0.3 0.3" 
+          src="#freddy13" animation-mixer>
+        </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 13">
+        <a-plane
+          width="1" height="1" position="0 0 0" rotation="0 0 0"
+          src="./assets/FNAF/alasFF/14.png"
+        ></a-plane>
+        <a-gltf-model 
+          rotation="90 0 0" position="0 0 0" scale="0.3 0.3 0.3" 
+          src="#freddy14" animation-mixer>
+        </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 14">
+        <a-plane
+          width="1" height="1" position="0 0 0" rotation="0 0 0"
+          src="./assets/FNAF/alasFF/15.png"
+        ></a-plane>
+        <a-gltf-model 
+          rotation="90 0 0" position="0 0 0" scale="0.3 0.3 0.3" 
+          src="#freddy15" animation-mixer>
+        </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 15">
+        <a-plane
+          width="1" height="1" position="0 0 0" rotation="0 0 0"
+          src="./assets/FNAF/alasFF/16.png"
+        ></a-plane>
+        <a-gltf-model 
+          rotation="90 0 0" position="0 0 0" scale="0.3 0.3 0.3" 
+          src="#freddy16" animation-mixer>
+        </a-entity>
     </a-scene>
   </body>
 </html>

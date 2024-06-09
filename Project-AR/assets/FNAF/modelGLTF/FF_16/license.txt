@@ -1,0 +1,11 @@
+Model Information:
+* title:	lolbit-fnaf
+* source:	https://sketchfab.com/3d-models/lolbit-fnaf-fe0f5d0667424e9eb3eb80333c891ed7
+* author:	fnaflova (https://sketchfab.com/fnaflova)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "lolbit-fnaf" (https://sketchfab.com/3d-models/lolbit-fnaf-fe0f5d0667424e9eb3eb80333c891ed7) by fnaflova (https://sketchfab.com/fnaflova) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

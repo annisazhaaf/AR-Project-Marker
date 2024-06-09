@@ -1,0 +1,11 @@
+Model Information:
+* title:	Glamrock Freddy
+* source:	https://sketchfab.com/3d-models/glamrock-freddy-3c727a21db4945d498d181bb484462a5
+* author:	RoseDemo (https://sketchfab.com/RoseDemo)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Glamrock Freddy" (https://sketchfab.com/3d-models/glamrock-freddy-3c727a21db4945d498d181bb484462a5) by RoseDemo (https://sketchfab.com/RoseDemo) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	glamrock-freddy
+* source:	https://sketchfab.com/3d-models/glamrock-freddy-7d63e08eb93e43f49044c408c26589b5
+* author:	glitchtrap (https://sketchfab.com/glichtrap)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "glamrock-freddy" (https://sketchfab.com/3d-models/glamrock-freddy-7d63e08eb93e43f49044c408c26589b5) by glitchtrap (https://sketchfab.com/glichtrap) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
