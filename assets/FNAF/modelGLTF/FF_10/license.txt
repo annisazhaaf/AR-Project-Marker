@@ -1,0 +1,11 @@
+Model Information:
+* title:	FNAF Security Breach: Vanny
+* source:	https://sketchfab.com/3d-models/fnaf-security-breach-vanny-d07c666c230e457ab83fce4901f33ad1
+* author:	Mm123 (https://sketchfab.com/Mm123)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "FNAF Security Breach: Vanny" (https://sketchfab.com/3d-models/fnaf-security-breach-vanny-d07c666c230e457ab83fce4901f33ad1) by Mm123 (https://sketchfab.com/Mm123) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
